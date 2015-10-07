@@ -19,6 +19,7 @@ public class loguin extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loguin);
         final Button boton = (Button) findViewById(R.id.btnIngresar);
+
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
