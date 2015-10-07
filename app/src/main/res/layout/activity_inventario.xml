@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.urcoju1.invmobile.Inventario"
+    android:background="@color/md_red_500"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="232dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="384dp"
+            android:layout_height="52dp"
+            android:text="@string/Scan"
+            android:layout_gravity="bottom"
+            android:textSize="30dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:text="Scan"
+            android:id="@+id/btnScan"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>
