@@ -24,6 +24,7 @@ public class loguin extends ActionBarActivity {
             public void onClick(View v) {
                 String usuario = ((EditText) findViewById(R.id.txtUsuario)).getText().toString();
                 String password = ((EditText) findViewById(R.id.txtPassword)).getText().toString();
+                //login
                 if (usuario.equals("admin") && password.equals("admin")) {
                     Intent nuevoform = new Intent(loguin.this, MainActivity.class);
                     startActivity(nuevoform);
